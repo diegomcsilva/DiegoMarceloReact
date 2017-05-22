@@ -9520,6 +9520,8 @@ module.exports = getIteratorFn;
 var React = __webpack_require__(25);
 var Header = __webpack_require__(185);
 var Banner = __webpack_require__(186);
+var About = __webpack_require__(189);
+var Competence = __webpack_require__(190);
 
 var Main = React.createClass({
     displayName: 'Main',
@@ -9530,7 +9532,9 @@ var Main = React.createClass({
             'div',
             { className: 'main' },
             React.createElement(Header, null),
-            React.createElement(Banner, null)
+            React.createElement(Banner, null),
+            React.createElement(About, null),
+            React.createElement(Competence, null)
         );
     }
 });
@@ -22134,12 +22138,126 @@ var BannerRight = React.createClass({
         "h1",
         null,
         "Diego Marcelo Costa da Silva"
+      ),
+      React.createElement(
+        "h2",
+        null,
+        "Desenvolvedor Front End"
+      ),
+      React.createElement(
+        "h3",
+        null,
+        "Rio de Janeiro, Rio de Janeiro, Brasil"
       )
     );
   }
 });
 
 module.exports = BannerRight;
+
+/***/ }),
+/* 189 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var React = __webpack_require__(25);
+
+var About = React.createClass({
+  displayName: "About",
+
+  render() {
+    return React.createElement(
+      "div",
+      { className: "about" },
+      React.createElement(
+        "p",
+        null,
+        "Meu objetivo \xE9 atuar na \xE1rea de tecnologia da informa\xE7\xE3o e desenvolver meus conhecimentos na \xE1rea. Minhas experi\xEAncias me fizeram evoluir, mas sei que tenho muito para aprender."
+      )
+    );
+  }
+});
+
+module.exports = About;
+
+/***/ }),
+/* 190 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var React = __webpack_require__(25);
+
+var Competence = React.createClass({
+  displayName: "Competence",
+
+  render: function () {
+    return React.createElement(
+      "div",
+      { className: "competence" },
+      React.createElement(
+        "div",
+        { className: "content" },
+        React.createElement(
+          "p",
+          null,
+          "HTML5"
+        ),
+        React.createElement(
+          "div",
+          { className: "progress" },
+          React.createElement("div", { className: "HTML5" })
+        )
+      ),
+      React.createElement(
+        "div",
+        { className: "content" },
+        React.createElement(
+          "p",
+          null,
+          "CSS3"
+        ),
+        React.createElement(
+          "div",
+          { className: "progress" },
+          React.createElement("div", { className: "CSS3" })
+        )
+      ),
+      React.createElement(
+        "div",
+        { className: "content" },
+        React.createElement(
+          "p",
+          null,
+          "JS"
+        ),
+        React.createElement(
+          "div",
+          { className: "progress" },
+          React.createElement("div", { className: "JS" })
+        )
+      ),
+      React.createElement(
+        "div",
+        { className: "content" },
+        React.createElement(
+          "p",
+          null,
+          "React"
+        ),
+        React.createElement(
+          "div",
+          { className: "progress" },
+          React.createElement("div", { className: "React" })
+        )
+      ),
+      React.createElement(
+        "div",
+        { className: "all" },
+        "Ionic \u2013 React \u2013 Metodologias \xC1geis - Scrum \u2013 Kanban - TypesScript - SASS \u2013 Developer tools \u2013 Gulp.js \u2013 AngularJS - HTML - HTML5 - CSS - Bootstrap - jQuery - Linux - Google Analytics - Selenium Testing \u2013 Git - GitHub - CSS3 - Google Tag Manager - MySQL - Django - Google Doc - Testes funcionais - Ms Office - Ms Excel - Ms PowerPoint \u2013 JavaScript - English - Ingl\xEAs - Testes - Lideran\xE7a de equipe - Planejamento estrat\xE9gico - Estrat\xE9gia empresarial - Planejamento empresarial - Relacionamento interpessoal"
+      )
+    );
+  }
+});
+
+module.exports = Competence;
 
 /***/ })
 /******/ ]);

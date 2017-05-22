@@ -1,6 +1,8 @@
 var React = require('react');
 var Header = require('./Header');
 var Banner = require('./Banner');
+var About = require('./About');
+var Competence = require('./Competence');
 
 var Main = React.createClass({
 
@@ -9,6 +11,8 @@ var Main = React.createClass({
             <div className="main">
                 <Header />
                 <Banner / >
+                <About />
+                <Competence />
             </div>
         );
     }
