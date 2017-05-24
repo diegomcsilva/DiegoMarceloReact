@@ -3,7 +3,7 @@ var Header = require('./Header');
 var Banner = require('./Banner');
 var About = require('./About');
 var Competence = require('./Competence');
-var Competence = require('./Experiences');
+var Experiences = require('./Experiences');
 
 var Main = React.createClass({
 

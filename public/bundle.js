@@ -9522,7 +9522,7 @@ var Header = __webpack_require__(90);
 var Banner = __webpack_require__(85);
 var About = __webpack_require__(84);
 var Competence = __webpack_require__(88);
-var Competence = __webpack_require__(89);
+var Experiences = __webpack_require__(89);
 
 var Main = React.createClass({
     displayName: 'Main',

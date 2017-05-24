@@ -1,7 +1,7 @@
 var React = require('react');
 
 var Experiences = React.createClass({
-  render: function(){
+  render: function() {
     return (
       <div>
         <h2>Desenvolvedor Front End Junior</h2>
@@ -23,7 +23,7 @@ var Experiences = React.createClass({
             <li>- Git</li>
             <li>- Metodologia Bem</li>
           </ul>
-          </div>
+        </div>
     );
   }
 });
