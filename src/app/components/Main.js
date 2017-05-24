@@ -3,6 +3,7 @@ var Header = require('./Header');
 var Banner = require('./Banner');
 var About = require('./About');
 var Competence = require('./Competence');
+var Competence = require('./Experiences');
 
 var Main = React.createClass({
 
@@ -13,6 +14,7 @@ var Main = React.createClass({
                 <Banner / >
                 <About />
                 <Competence />
+                <Experiences />
             </div>
         );
     }
