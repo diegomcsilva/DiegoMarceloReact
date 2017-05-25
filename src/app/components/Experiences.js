@@ -3,7 +3,7 @@ var React = require('react');
 var Experiences = React.createClass({
   render: function() {
     return (
-      <div>
+      <div className="experiences" id="experiences">
         <h2>Desenvolvedor Front End Junior</h2>
         <h3>Empresa: <strong>Ventron</strong></h3>
         <h3>Período: dez de 2016 – o momento  Duração do emprego6 meses</h3>

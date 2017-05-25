@@ -15,9 +15,34 @@
   margin: 0 auto;
 }
 
+/*Endereço Original da imagem utilizada
+http://www.clickgratis.com.br/fotos-imagens/search/?q=fundo/
+http://www.clickgratis.com.br/fotos-imagens/search/?q=fundo/
+*/
 body {
   background: url(../../src/images/fundo.jpg);
   background-attachment: fixed;
+  background-size: 100%;
+}
+
+#app {
+  background-color: rgba(0,0,0,.8);
+}
+
+.nav {
+  ul {
+    float: right;
+    li {
+      display: inline-block;
+      padding: 10px;
+      a {
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 18px;
+        color: #0e827d;
+      }
+    }
+  }
 }
 
 .main {
@@ -119,6 +144,16 @@ body {
           background: linear-gradient(to top left, #61dafb, #007190);
           background-color: #61dafb;
         }
+      }
+    }
+  }
+  .experiences {
+    padding: 10px 20px;
+    background: gray;
+    color: #fff;
+    ul {
+      li {
+        list-style: none;
       }
     }
   }

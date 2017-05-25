@@ -5,7 +5,7 @@ var BannerRight = require('./BannerRight');
 var Banner = React.createClass({
   render: function() {
     return (
-        <div className="banner">
+        <div className="banner" id="banner">
           <BannerLeft />
           <BannerRight />
         </div>

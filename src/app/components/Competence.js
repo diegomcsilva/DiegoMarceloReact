@@ -3,7 +3,7 @@ var React = require('react');
 var Competence = React.createClass({
   render: function() {
     return (
-      <div className="competence">
+      <div className="competence" id="competence">
         <div className="content">
           <p>HTML5</p>
           <div className="progress">
